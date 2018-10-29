@@ -1,9 +1,4 @@
-sentence = "Hello there, and how are you?"
-
 def reverse_each_word(sentence)
-  sentense.spilt.collect do |word|
-    word.reverse
-  end
-  sentece.join(" ")
+  sentense.spilt.collect {|word| word.reverse}.join(" ")
 end
-reverse_each_word
+
